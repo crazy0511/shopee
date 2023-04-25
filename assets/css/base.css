@@ -34,3 +34,13 @@ html {
     /* Con có tổng độ dài quá grid__row thì xuống dưới */
     flex-wrap: wrap;
 }
+
+/* Animation */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
